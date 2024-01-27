@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  nginx-cicd:
+    image: umihira/devops:nginx-cicd
+    ports:
+      - "8080:80"
